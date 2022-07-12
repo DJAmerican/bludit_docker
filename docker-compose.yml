@@ -8,7 +8,7 @@ services:
       - html:/var/www           # Bludit home
       - nginx:/etc/nginx        # Nginx config
     ports:
-      - 8080:80
+      - 8004:80
     restart: always
     cpu_shares: 50
     mem_limit: 64m
