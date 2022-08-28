@@ -31,7 +31,7 @@ $ docker rmi djamerican/bludit_docker:latest
 ### Start with docker-compose
 
 ```
-version: '2.4'
+version: '3.0'
 services:
   bludit:
     image: djamerican/bludit_docker
