@@ -53,4 +53,3 @@ EXPOSE 80
 HEALTHCHECK --interval=10s --timeout=3s --retries=3 --start-period=3s CMD curl --silent --fail http://127.0.0.1/fpm-ping
 
 CMD ["/usr/bin/supervisord", "-n", "-c",  "/etc/supervisord.conf"]
-
